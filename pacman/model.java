@@ -73,18 +73,18 @@ public class model {
 
 
     private void loadImages() {
-        down = new ImageIcon("/C:/Users/MyLenovo").getImage();
-        up = new ImageIcon("/C:/Users/MyLenovo").getImage();
-        left = new ImageIcon("/C:/Users/MyLenovo").getImage();
-        right = new ImageIcon("/C:/Users/MyLenovo").getImage();
-        ghost = new ImageIcon("/C:/Users/MyLenovo").getImage();
-        heart = new ImageIcon("/C:/Users/MyLenovo").getImage();
+        down = new ImageIcon("/src/images/down.gif").getImage();
+        up = new ImageIcon("/src/images/up.gif").getImage();
+        left = new ImageIcon("/src/images/left.gif").getImage();
+        right = new ImageIcon("/src/images/right.gif").getImage();
+        ghost = new ImageIcon("/src/images/ghost.gif").getImage();
+        heart = new ImageIcon("/src/images/heart.png").getImage();
 
     }
     private void initVariables() {
 
         screenData = new short[N_BLOCKS * N_BLOCKS];
-        d = new Dimension(360, 360);
+        d = new Dimension(400, 400);
         ghost_x = new int[MAX_GHOSTS];
         ghost_dx = new int[MAX_GHOSTS];
         ghost_y = new int[MAX_GHOSTS];

@@ -2,17 +2,16 @@ import javax.swing.JFrame;
 
 import pacman.model;
 
+public class pacman2 {
+    
 
-
-public class Pacman extends JFrame{
+public static class Pacman extends JFrame{
 
     public Pacman() {
         add(new model());
-      
     }
 
-    private void add(model model) {
-    }
+
 
 
     public static void main(String[] args) {
@@ -24,10 +23,7 @@ public class Pacman extends JFrame{
         pac.setLocationRelativeTo(null);
 
     }
+
 }
-
-
-
-
     
-
+}
